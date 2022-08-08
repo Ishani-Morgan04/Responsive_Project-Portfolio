@@ -1,0 +1,293 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --main-font-family: "Nunito", sans-serif;
+  --box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+body {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 80px;
+  font-family: var(--main-font-family);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: -25px;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: var(--secondary-color);
+  margin: 0 80px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: -15px;
+  margin-bottom: -70px;
+  color: var(--secondary-color);
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.intro img {
+  height: auto;
+  width: 950px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.navbar-dark {
+  background-color: var(--secondary-color);
+}
+
+.nav-link.active {
+  color: rgb(255, 0, 149) !important;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+}
+.navbar-brand,
+.nav-link {
+  color: black !important;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgb(15, 247, 7) !important;
+  font-weight: bold;
+}
+
+.name-logo {
+  width: 50px;
+  margin-top: -5px;
+  overflow: hidden;
+}
+
+.navigation-link {
+  padding-top: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.about-me {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: var(--secondary-color);
+}
+
+.about-me:hover {
+  color: rgb(200, 255, 1);
+}
+
+.about-link,
+.portfolio-link,
+.contact-link {
+  border: 2px solid var(--secondary-color);
+  border-radius: 40px;
+  padding: 15px 20px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: capitalize;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: var(--box-shadow);
+  transition: all 100ms ease-in-out;
+}
+
+.navigation-link a:hover {
+  border: 2px solid var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.content-container {
+  text-align: center;
+}
+
+.content-container p {
+  font-size: 20px;
+  padding: 25px 5px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.card {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  color: var(--primary-color);
+  background-color: rgb(255, 235, 235);
+}
+.card:hover {
+  background-color: rgb(212, 249, 250);
+}
+
+.card img {
+  width: 150px;
+  margin: 15px auto;
+}
+
+.card-body p {
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: -15px;
+  line-height: normal;
+  text-align: justify;
+  color: var(--primary-color);
+}
+
+.mp-link a,
+.tmb-link a,
+.fed-link a {
+  margin-top: -20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.mp-link a:hover,
+.tmb-link a:hover,
+.fed-link a:hover {
+  color: rgb(5, 49, 90);
+}
+
+.mp-link a {
+  color: rgb(212, 24, 24);
+}
+
+.tmb-link a {
+  color: rgb(245, 94, 7);
+}
+
+.fed-link a {
+  color: rgb(116, 5, 207);
+}
+
+.events-link,
+.prod-link,
+.docu-link,
+.digitalmarketing-link,
+.design-link,
+.personal-app,
+.weather-app,
+.portfolio-app {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.connect {
+  margin-top: 90px;
+  margin-bottom: -50px;
+}
+
+.network img {
+  width: 950px;
+  height: auto;
+}
+
+i.fa-brands,
+i.fa {
+  font-family: fontawesome !important;
+  font-style: normal;
+}
+
+.network-links i {
+  font-size: 40px;
+  margin: 0px 20px;
+  padding: 10px 20px;
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 40px;
+  text-decoration: none;
+  background-image: none;
+  border: 2px solid var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.network-links i:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+footer p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 60px 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 16px;
+    vertical-align: middle;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: -25px;
+  }
+
+  .navbar-toggler {
+    background-color: rgb(216, 211, 211);
+    padding-top: -10px;
+    padding-bottom: -10px;
+    float: left;
+  }
+
+  .about-me {
+    margin-top: 20px;
+    margin-bottom: -25px;
+  }
+
+  .content-container p {
+    font-size: 16px;
+    padding: 16px 24px;
+  }
+
+  .card {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: -30 px;
+  }
+
+  .connect {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .network-links {
+    margin-top: 40px;
+  }
+}
